@@ -14,8 +14,8 @@ function App() {
     <>
     
       <h1>Healthy items</h1>
-      <ErrorMessage></ErrorMessage>
-      <FoodItems></FoodItems>
+      <ErrorMessage items={foodItems}></ErrorMessage>
+      <FoodItems  items={foodItems}></FoodItems>
     </>
    // </React.Fragment>
   );
